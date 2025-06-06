@@ -592,6 +592,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		ImGui::DragFloat3("SegmentOrigin", &segment.origin.x, 0.01f);
 		ImGui::DragFloat3("SegmentDiff", &segment.diff.x, 0.01f);
 		ImGui::DragFloat3("Project", &project.x, 0.01f);
+		ImGui::End();
 
 		///
 		/// ↑更新処理ここまで
